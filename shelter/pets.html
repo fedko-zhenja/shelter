@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="35x35" href="./assets/logo/icons8-кошачий-след-48.png">
+</head>
+<body>
+    
+        <header id="pets_header">
+            <div class="pets_page-container">
+                <div class="header  default-padding pets_header">
+                    <a href="index.html" class="link-style">
+                        <div class="header-logo pets_header-logo">
+                            <span class="header-title pets_header-title">Cozy House</span>
+                            <span class="header-subtitle pets_header-subtitle">Shelter for pets in Boston</span>
+                        </div>
+                    </a>
+                        
+                    <nav>
+                        <ul class="navigation-list">
+                            <li class="list-item pets_list-item"><a href="index.html" class="link-style">About the shelter</a></li>
+                            <li class="active-list-item pets_active-list-item cursor-unactive-style"><a>Our pets</a></li>
+                            <li class="list-item pets_list-item"><a href="index.html#help-section" class="link-style">Help the shelter</a></li>
+                            <li class="list-item pets_list-item"><a href="#footer" class="link-style">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="burger-icon">
+            <div class="burger-icon_line"></div>
+            <div class="burger-icon_line"></div>
+            <div class="burger-icon_line"></div>
+        </div>
+    
+        <main>
+            <section id="our-friend-section" class="our-friend-section">
+                <div class="pets_page-container">
+                    <div class="pets_our-friend-section_container default-padding">
+                        <h1 class="our-friend-section_title">
+                            <span class="display">Our friends who</span>
+                            <span>are looking for a house</span>
+                        </h1>
+
+                        <!-- <div class="our-friend_cards-container"> -->
+
+                            <div class="pets_our-friend_cards-wrapper"></div>
+                        <!-- </div> -->
+                        <div class="pets_our-friend_button-container">
+                            <button class="our-friend_arrow-button pets_unactive-button" id="pagination_last-page_left">&#60;&#60;</button>
+                            <button class="our-friend_arrow-button pets_unactive-button" id = 'pagination_previous-page'>&#60;</button>
+                            <button class="our-friend_arrow-button pets_active-button pets_our-friend_active-page" id="pagination_current-page"><span>1</span></button>
+                            <button class="our-friend_arrow-button pets_active-button" id = 'pagination_next-page'>&#62;</button>
+                            <button class="our-friend_arrow-button pets_active-button" id="pagination_last-page_right">&#62;&#62;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer" id = 'hi'>
+            <div class="page-container">
+                <div class="footer_container default-padding">
+                    <div class="footer_questions-info">
+                        <h2 class="footer_title">For questions and suggestions</h2>
+                        <div>
+                            <a class="link-style footer_text-container" href="mailto:email@shelter.com">
+                                <img class="footer_icon" loading="lazy" src="assets/image/icon-email.svg" alt="email-image">
+                                <span class="footer_text">email@shelter.com</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="link-style footer_text-container" href="tel:+136745677554">
+                                <img class="footer_icon" loading="lazy" src="assets/image/icon-phone.svg" alt="phone-image">
+                                <span class="footer_text">+13 674 567 75 54</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer_visit-info">
+                        <h2 class="footer_title footer_second-title">We are waiting for your visit</h2>
+                        <div>
+                            <a class="link-style footer_text-container" href="https://goo.gl/maps/K63KGyb7MnTRMuDp9" target="_blank">
+                                <img class="footer_icon" loading="lazy" src="assets/image/icon-marker.png" alt="marker-image">
+                                <span class="footer_text">1 Central Street, Boston (entrance from the store)</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="link-style footer_text-container" href="https://goo.gl/maps/uBaQf9FCxenj2iuj6" target="_blank">
+                                <img class="footer_icon" loading="lazy" src="assets/image/icon-marker.png" alt="marker-image">
+                                <span class="footer_text">18 South Park, London </span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <img class="footer_img" loading="lazy" src="assets/image/footer-puppy.png" alt="dog-image">
+                </div>
+            </div>
+        </footer>
+
+        <!-- <ul class="burger_navigation-list">
+            <li class="active-list-item burger-item"><a>About the shelter</a></li>
+            <li class="list-item burger-item"><a href="pets/pets.html" class="link-style">Our pets</a></li>
+            <li class="list-item burger-item"><a href="#help-section" class="link-style">Help the shelter</a></li>
+            <li class="list-item burger-item"><a href="#footer" class="link-style">Contacts</a></li>
+        </ul> -->
+
+        <ul class="burger_navigation-list white-background">
+            <li class="list-item pets_list-item burger-item"><a href="index.html" class="link-style">About the shelter</a></li>
+            <li class="active-list-item pets_active-list-item burger-item"><a>Our pets</a></li>
+            <li class="list-item pets_list-item burger-item"><a href="index.html#help-section" class="link-style">Help the shelter</a></li>
+            <li class="list-item pets_list-item burger-item"><a href="#footer" class="link-style">Contacts</a></li>
+        </ul>
+
+        <div class="pop-up_key-container">
+            <div class="pop-up_container">
+                <button class="pop-up_button">
+                    <img class="pop-up_button-img" src="assets/image/Vector-close.png">
+                </button>
+        
+                <div class="pop-up_info-container">
+                    <img class="pop-up_img" src="assets/image/pets-jennifer.png">
+        
+                    <div class="pop-up_content-container">
+                        <div class="pop-up_content_title-container">
+                            <h2 class="pop-up_content_title">Jennifer</h2>
+                            <h3 class="pop-up_content_subtitle">Dog - Labrador</h3>
+                        </div>
+        
+                        <p class="pop-up_content_pet-description">
+                            Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. 
+                            This girl really enjoys being able to go outside to run and play, 
+                            but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+                        </p>
+        
+                        <ul class="pop-up_content_list-container">
+                            <li class="pop-up_content_list_item">
+                                <b>Age: </b>
+                                <span class="pop-up_pet-age">2 months</span>
+                            </li>
+        
+                            <li class="pop-up_content_list_item">
+                                <b>Inoculations: </b>
+                                <span class="pop-up_pet-inoculations">none</span>
+                            </li>
+        
+                            <li class="pop-up_content_list_item">
+                                <b>Diseases: </b>
+                                <span class="pop-up_pet-diseases">none</span>
+                            </li>
+        
+                            <li class="pop-up_content_list_item">
+                                <b>Parasites: </b>
+                                <span class="pop-up_pet-parasites">none</span>
+                            </li>
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js" type="module"></script>
+</body>
+</html>
